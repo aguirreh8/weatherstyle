@@ -1,20 +1,16 @@
-h1 {
-	font-size: 85px ;
-	font-family: 'Berkshire Swash', cursive;
-
-}
-
-h2{
-	font-size: 65px;
-	font-family: 'Berkshire Swash', cursive;
-}
 
 #create-form {
 	border-style: solid;
 	 padding: 100px;
-	 width: 75%;
-	 padding-left: 150px;
+	 width: 100%;
+	 padding-left: 250px;
+	 background-color: #EAF9F9;
 
+
+}
+
+.navbar {
+	width: 100%;
 
 }
 
@@ -28,10 +24,24 @@ h2{
 
 
 #nav-input{
-	padding-left: 400px; ;
+	padding-left: 550px; 
+
 }
 
 /*#inputStyle,
 #inputZip {
 	padding-left: 40px;
 }*/
+
+h1 {
+	font-size: 85px ;
+	font-family: 'Berkshire Swash', cursive;
+
+}
+
+h2{
+	font-size: 65px;
+	font-family: 'Berkshire Swash', cursive;
+	/*padding-left: px;*/
+	
+}
