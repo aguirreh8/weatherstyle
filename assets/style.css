@@ -1,0 +1,31 @@
+h1 {
+	font-size: 75px ;
+	font-family: 'Berkshire Swash', cursive;
+
+}
+
+#create-form {
+	border-style: solid;
+	 padding: 80px;
+	 width: 750px;
+
+}
+
+#inputEmail4,
+#inputPassword4,
+#inputStyle {
+	width: 75%;
+
+}
+
+
+
+#nav-input{
+	
+	float: right: ;
+}
+
+#inputStyle,
+#inputZip {
+	padding-left: 40px;
+}
