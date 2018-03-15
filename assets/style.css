@@ -1,13 +1,20 @@
 h1 {
-	font-size: 75px ;
+	font-size: 85px ;
 	font-family: 'Berkshire Swash', cursive;
 
 }
 
+h2{
+	font-size: 65px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
 #create-form {
 	border-style: solid;
-	 padding: 80px;
-	 width: 750px;
+	 padding: 100px;
+	 width: 75%;
+	 padding-left: 150px;
+
 
 }
 
@@ -21,11 +28,10 @@ h1 {
 
 
 #nav-input{
-	
-	float: right: ;
+	padding-left: 400px; ;
 }
 
-#inputStyle,
+/*#inputStyle,
 #inputZip {
 	padding-left: 40px;
-}
+}*/
