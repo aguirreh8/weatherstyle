@@ -10,7 +10,7 @@
 
 .navbar {
 	width: 100%;
-	background-color: #8FA8F9;
+	
 }
 
 
@@ -27,15 +27,25 @@
 
 }
 
-#register-nav{
-	
+.skybanner{
+    width: 50%;
+    height: 70%;
+    top: -50px;
+
 }
+
+.sky-banners {
+  height: 65vh;
+}
+
 
 .nav-link {
 	float: right;
 	font-size: 25px;
 	padding-top: 0px;
 }
+
+
 /*#inputStyle,
 #inputZip {
 	padding-left: 40px;

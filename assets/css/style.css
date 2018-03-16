@@ -1,48 +1,63 @@
+
 #create-form {
-    border-style: solid;
-     padding: 100px;
-     width: 100%;
-     padding-left: 250px;
-     background-color: #EAF9F9;
+	border-style: solid;
+	 padding: 100px;
+	 width: 100%;
+	 padding-left: 250px;
+	 background-color: #EAF9F9;
 }
+
+
 .navbar {
-    width: 100%;
+	width: 100%;
+	background-color: #8FA8F9;
 }
+
+
 #inputEmail4,
 #inputPassword4,
 #inputStyle {
-    width: 75%;
+	width: 75%;
+
 }
+
+
 #nav-input{
-    padding-left: 550px; 
-}
-
-.skybanner{
-    width: 50%;
-    height: 70%;
-    top: -50px;
+	padding-left: 550px; 
 
 }
 
-.sky-banners {
-  height: 65vh;
+#register-nav{
+	
 }
 
-
+.nav-link {
+	float: right;
+	font-size: 25px;
+	padding-top: 0px;
+}
 /*#inputStyle,
 #inputZip {
-    padding-left: 40px;
+	padding-left: 40px;
 }*/
+
 h1 {
-    font-size: 85px ;
-    font-family: 'Berkshire Swash', cursive;
+	padding-left: 200px;
+	font-size: 125px ;
+	font-family: 'Berkshire Swash', cursive;
+
 }
+
 h2{
-    font-size: 65px;
-    font-family: 'Berkshire Swash', cursive;
-    /*padding-left: px;*/
-    
+	font-size: 75px;
+	font-family: 'Berkshire Swash', cursive;
+	/*padding-left: px;*/
+	
 }
+
 body {
-    background-image: url("images/bodyimg.png");
+	background-image: url("images/bodyimg.png");
 }
+
+
+/*Home Page styling\*/
