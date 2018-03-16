@@ -1,0 +1,48 @@
+#create-form {
+    border-style: solid;
+     padding: 100px;
+     width: 100%;
+     padding-left: 250px;
+     background-color: #EAF9F9;
+}
+.navbar {
+    width: 100%;
+}
+#inputEmail4,
+#inputPassword4,
+#inputStyle {
+    width: 75%;
+}
+#nav-input{
+    padding-left: 550px; 
+}
+
+.skybanner{
+    width: 50%;
+    height: 70%;
+    top: -50px;
+
+}
+
+.sky-banners {
+  height: 65vh;
+}
+
+
+/*#inputStyle,
+#inputZip {
+    padding-left: 40px;
+}*/
+h1 {
+    font-size: 85px ;
+    font-family: 'Berkshire Swash', cursive;
+}
+h2{
+    font-size: 65px;
+    font-family: 'Berkshire Swash', cursive;
+    /*padding-left: px;*/
+    
+}
+body {
+    background-image: url("images/bodyimg.png");
+}
