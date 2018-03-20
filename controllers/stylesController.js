@@ -5,8 +5,22 @@ const styles = require("../models/styles.js");
 const path = require("path")
 
 // Root routing
+router.get("/register", function(req, res) {
+	res.render("register");
+})
+
 router.get("/", function(req, res) {
-	res.sendFile(path.join(__dirname, "../public/register.html"))
+	styles.getWeather(function(results) {
+		const weather = results[0].current;
+		res.render("weatherStyle", {weather: weather});
+	})
+})
+
+
+router.get("/api/:gender&:temp&:occasion", function(req, res) {
+	styles.getOutfits(req.params.gender, req.params.temp, req.params.occasion, function(results) {
+		res.json(results);
+	})
 })
 
 // Create new user
@@ -20,10 +34,6 @@ router.post("/api/newUser", function(req, res) {
 	styles.newUser(name, password, gender, email, zip, function(results) {
 		res.json(results);
 	})
-})
-
-router.get("/main", function(req, res) {
-	const temp = req.body.temp;
 })
 
 // Exports
