@@ -1,9 +1,10 @@
 
 #create-form {
 	border-style: solid;
+	border-color: #6D6E92;
 	 padding: 100px;
 	 width: 100%;
-	 padding-left: 250px;
+	 padding-left: 155px;
 	 background-color: #EAF9F9;
 }
 
@@ -14,18 +15,147 @@
 }
 
 
-#inputEmail4,
+#inputEmail4{
+	width: 80%;
+}
+
 #inputPassword4,
-#inputStyle {
+#inputStyle,
+#inputName {
 	width: 75%;
 
 }
 
-
-#nav-input{
-	padding-left: 550px; 
+/*#nav-input{
+	padding-left: 250px; 
 
 }
+*/
+
+
+.nav-link {
+	/*float: right;*/
+	font-size: 25px;
+	padding-top: 0px;
+	text-align: center;
+	
+}
+
+#create {
+	text-align: center;
+}
+
+#form-div {
+	border-style: solid;
+	border-color: #6D6E92;
+}
+/*#inputStyle,
+#inputZip {
+	padding-left: 40px;
+}*/
+button,
+
+.nav-link {
+	
+	color: #6D6E92;
+	border: none;
+	padding-left: 325px;
+	font-size: 50px;
+}
+
+#create {
+	background-color: #6D6E92;
+	color: white;
+}
+
+.nav-link{
+	width: 25%;
+	text-align: center;
+}
+
+#create: hover {
+	opacity: 0.8;
+}
+
+#reg-img {
+	height: 700px;
+	width: 50%;
+}
+
+#carouselDiv {
+
+	border-style: solid;
+	border-color: #E4CD61;
+	border-width: 8px;
+}
+
+h1 {
+	/*padding-top: 35px;
+	padding-left: 130px;*/
+	font-size: 180px ;
+	font-family: 'Berkshire Swash', cursive;
+	color: #E4CD61;
+	text-align: center;
+
+
+}
+
+h2 {
+	font-size: 75px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	/*padding-left: px;*/
+	padding-top: 65px;
+	color: #6D6E92;
+}
+
+body {
+	background-color: black;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+	img {max-width: 500px;
+		padding-left: 50px;
+
+	}
+
+	h1 {
+		font-size: 100px;
+		/*text-align: center;
+		padding-left: 100px;*/
+	}
+}
+
+ @media only screen and (max-width: 768px) {
+        
+        img {max-width: 375px;}
+
+        h1 {
+		font-size: 75px;
+		/*text-align: center;
+		padding-left: 45px;*/
+	}
+
+}
+
+ @media only screen and (max-width: 640px) {
+        
+        img {max-width: 325px;
+        }
+
+        h1 {
+		font-size: 50px;
+		/*text-align: center;
+		padding-left: 25px;*/
+	}
+
+}
+
+/*Home Page styling\*/
+
+
 
 .skybanner{
     width: 50%;
@@ -37,37 +167,3 @@
 .sky-banners {
   height: 65vh;
 }
-
-
-.nav-link {
-	float: right;
-	font-size: 25px;
-	padding-top: 0px;
-}
-
-
-/*#inputStyle,
-#inputZip {
-	padding-left: 40px;
-}*/
-
-h1 {
-	padding-left: 200px;
-	font-size: 125px ;
-	font-family: 'Berkshire Swash', cursive;
-
-}
-
-h2{
-	font-size: 75px;
-	font-family: 'Berkshire Swash', cursive;
-	/*padding-left: px;*/
-	
-}
-
-body {
-	background-image: url("../img/bodyimg.png");
-}
-
-
-/*Home Page styling\*/
