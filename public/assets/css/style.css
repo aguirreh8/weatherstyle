@@ -47,18 +47,25 @@
 
 #form-div {
 	border-style: solid;
-	border-color: black;
+	border-color: #6D6E92;
 }
 /*#inputStyle,
 #inputZip {
 	padding-left: 40px;
 }*/
 button,
-#create,
+
 .nav-link {
+	
+	color: #6D6E92;
+	border: none;
+	padding-left: 325px;
+	font-size: 50px;
+}
+
+#create {
 	background-color: #6D6E92;
 	color: white;
-	border: none;
 }
 
 .nav-link{
@@ -70,10 +77,22 @@ button,
 	opacity: 0.8;
 }
 
+#reg-img {
+	height: 700px;
+	width: 50%;
+}
+
+#carouselDiv {
+
+	border-style: solid;
+	border-color: #E4CD61;
+	border-width: 8px;
+}
+
 h1 {
 	/*padding-top: 35px;
 	padding-left: 130px;*/
-	font-size: 150px ;
+	font-size: 180px ;
 	font-family: 'Berkshire Swash', cursive;
 	color: #E4CD61;
 	text-align: center;
@@ -87,16 +106,13 @@ h2 {
 	text-align: center;
 	/*padding-left: px;*/
 	padding-top: 65px;
+	color: #6D6E92;
 }
 
 body {
 	background-color: black;
 }
 
-#register-img{
-	/*padding-left: 75px;*/
-	position: center;
-}
 
 
 @media only screen and (max-width: 980px) {
