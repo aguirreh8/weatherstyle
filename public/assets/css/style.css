@@ -14,14 +14,23 @@
 	
 }
 
+#ebay-icon {
+	width: 10%;
+	height: 10%;
+	float: right;
+
+}
+
 
 #inputEmail4{
+
 	width: 80%;
 }
 
 #inputPassword4,
 #inputStyle,
 #inputName {
+
 	width: 75%;
 
 }
@@ -42,10 +51,12 @@
 }
 
 #create {
+
 	text-align: center;
 }
 
 #form-div {
+
 	border-style: solid;
 	border-color: #6D6E92;
 }
@@ -64,20 +75,24 @@ button,
 }
 
 #create {
+
 	background-color: #6D6E92;
 	color: white;
 }
 
 .nav-link{
+
 	width: 25%;
 	text-align: center;
 }
 
 #create: hover {
+
 	opacity: 0.8;
 }
 
 #reg-img {
+
 	height: 700px;
 	width: 50%;
 }
