@@ -9,15 +9,27 @@ const styles = {
 				cb(res); // Use callback to send data
 			})
 	},
-
-	getWeather: function(cb) {
-		orm.getWeather(function(res) {
+	// Pass zipcode to get weather data
+	getWeather: function(zip, cb) {
+		orm.getWeather(zip, function(res) {
 			cb(res);
 		})
 	},
-
+	// Get outfits from single table
 	getOutfits: function(gender, temp, occasion, cb) {
 		orm.getOutfits("outfits", gender, temp, occasion, function(res) {
+			cb(res);
+		})
+	},
+	// Get products from Ebay API
+	getEbayProducts: function(gender, occasion, article, cb) {
+		orm.getEbayProducts(gender, occasion, article, function(res) {
+			cb(res);
+		})
+	},
+	// Get user information from login
+	login: function(email, password, cb) {
+		orm.login(email, password, function(res) {
 			cb(res);
 		})
 	}

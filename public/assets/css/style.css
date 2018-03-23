@@ -1,4 +1,4 @@
-
+/*Octavia*/
 #create-form {
 	border-style: solid;
 	border-color: #6D6E92;
@@ -12,6 +12,13 @@
 .navbar {
 	width: 100%;
 	
+}
+
+#ebay-icon {
+	width: 10%;
+	height: 10%;
+	float: right;
+
 }
 
 
@@ -59,7 +66,7 @@ button,
 	
 	color: #6D6E92;
 	border: none;
-	padding-left: 325px;
+	/*padding-left: 325px;*/
 	font-size: 50px;
 }
 
@@ -87,6 +94,30 @@ button,
 	border-style: solid;
 	border-color: #E4CD61;
 	border-width: 8px;
+}
+
+#modalTitle {
+	
+	font-size: 60px;
+	color: #6D6E92;
+	font-style: "Roboto Slab";
+
+
+}
+
+#modalContent {
+	font-size: 45px;
+	color: #E4CD61;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	
+}
+
+#modal-image {
+	width: 380px;
+	height: 350px;
+	border-style: solid;
+	border-color: #6D6E92;
 }
 
 h1 {
@@ -167,3 +198,120 @@ body {
 .sky-banners {
   height: 65vh;
 }
+/*Octavia*/
+
+/*Henry*/
+.temp-main {
+	height: 100px;
+	margin: 0;
+	font-size: 80px;
+	font-family: "Helvetica", "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	color: #E4CD61;
+	text-shadow: 4px 2px 2px rgba(150, 150, 150, 0.96);
+}
+
+.temp-location {
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Helvetica", "sans-serif";	
+}
+
+
+.temp-img {
+	height: 100px;
+	width: 120px;
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temp-feel {
+	text-align: center;
+	font-size: 25px;
+}
+
+#ebayProducts {
+	margin-top: 20px;
+	height: 300px;
+	overflow: auto;
+} 
+
+.product-container {
+	width: 200px;
+	height: 300px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	border: solid 1px;
+	border-color: gray;
+}
+
+.product-link {
+	background: linear-gradient(rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+	color: black;
+	font-style: italic;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 6px 7px 1px -2px rgba(0,0,0,0.75);
+}
+
+.carousel-results {
+	width: 370px;
+	height: 550px;
+}
+
+.outfit-name {
+	background-color: rgba(237, 237, 237, .6);
+	box-shadow: 6px 7px 1px -2px rgba(0,0,0,0.75);
+}
+
+.outfit-img {
+	width: 370px;
+	height: 550px;
+}
+/*Henry*/
+
+/*Muqsit*/
+.password{
+	/*color: #ffffff;*/
+	font-size: 18px;
+}
+
+.login{
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.email{
+	/*color: #ffffff;*/
+	font-size: 18px;
+}
+
+
+.NavBar {
+	width: 100%;
+	color: #ffffff;	
+	font-size: 20px;
+}
+
+.AboutNav{
+	color: #E4CD61;
+	font-size: 90px;
+	font-family: serif;
+	font-style: italic;
+}
+
+.bg-dark{
+	background-image: url("../img/skybanner.jpg");
+	background-color: #508ac5;
+}
+
+.BackGround{
+	background-image: url("../img/circles-dark.png");
+}			
+/*Muqsit

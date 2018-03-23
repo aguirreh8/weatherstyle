@@ -1,23 +1,74 @@
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Shirt and Shorts", "https://i.pinimg.com/736x/2e/d7/17/2ed7173e6d409aaa2506c2082a8cd273.jpg", "men", "casual", false, false, false, true, true, "clear");
+VALUES ("Shirt and Shorts", "assets/img/outfits/men_shirt-and-shorts.jpg", "men", "casual", false, false, false, true, true, "clear");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Shirt and Pants", "https://s-media-cache-ak0.pinimg.com/736x/c1/09/d8/c109d8a4a1bcc9833411102942446abb.jpg", "men", "casual", false, false, false, true, true, "clear");
-
-INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition)
-VALUES ("Dress", "https://www.dhresource.com/albu_791987590_00-1.0x0/2017-new-summer-women-039-s-clothing-high.jpg", "women", "both", false, false, false, false, true, "clear");
+VALUES ("Shirt and Jeans", "assets/img/outfits/men_shirt-and-jeans.jpg", "men", "casual", false, false, true, true, true, "clear");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Rainy Day Formal", "https://i.pinimg.com/originals/5d/e1/ea/5de1ea801814758a9552f0dd896a9e59.jpg", "men", "formal",  false, false, false, true, true, "rainy");
+VALUES ("Jacket and Umbrella", "assets/img/outfits/men_rainy_casual.jpg", "men", "casual", false, false, true, true, true, "rainy");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Shirt and Shorts", "https://i.pinimg.com/originals/9c/0e/90/9c0e90b4aa9ac9d762f498bdb6fdc374.jpg", "women", "casual",  false, false, false, true, true, "clear");
+VALUES ("Raincoat", "assets/img/outfits/men_rainy_casual.jpg", "men", "casual", true, true, true, false, false, "rainy");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Rainy Day Formal", "https://i.pinimg.com/originals/5d/e1/ea/5de1ea801814758a9552f0dd896a9e59.jpg", "men", "formal",  false, true, true, true, true, "rainy");
+VALUES ("Sweater and Jeans", "assets/img/outfits/men_sweater-and-jeans.jpg", "men", "casual", false, true, true, false, false, "clear");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Rainy Day Casual", "https://i.pinimg.com/236x/c3/21/74/c321747d17d1908c9b8204116c8e7f3c--mens-smart-casual-raincoat.jpg", "men", "casual",  false, true, true, true, true, "rainy");
+VALUES ("Winter Jacket", "assets/img/outfits/men_winter-jacket.jpg", "men", "casual", true, true, true, false, false, "clear");
 
 INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
-VALUES ("Rainy Day Jacket", "https://i.styleoholic.com/2016/08/11-jeans-a-black-leather-jacket-biege-boots.jpg", "men", "casual",  false, true, true, true, true, "rainy");
+VALUES ("Hoody", "assets/img/outfits/men_hoody.jpg", "men", "casual", false, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Longsleeve", "assets/img/outfits/men_longsleeve.jpg", "men", "casual", true, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Business", "assets/img/outfits/men_business.jpg", "men", "formal", false, false, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Tux", "assets/img/outfits/men_tux.jpg", "men", "formal", false, false, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Overcoat", "assets/img/outfits/men_overcoat.jpg", "men", "formal", true, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Winter Coat", "assets/img/outfits/men_winter-coat.jpg", "men", "formal", true, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Jacket and Umbrella", "assets/img/outfits/men_formal-umbrella.jpg", "men", "formal", false, true, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Shirt and Shorts", "assets/img/outfits/women_shirt-and-shorts.jpg", "women", "casual", false, false, false, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Shirt and Skirt", "assets/img/outfits/women_shirt_and_skirt.jpg", "women", "casual", false, false, false, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Shirt and Jeans", "assets/img/outfits/women_shirt-and-jeans.jpg", "women", "casual", false, false, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Longdress", "assets/img/outfits/longdress.jpg", "women", "casual", false, false, false, false, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Sweater and Jeans", "assets/img/outfits/women_sweater-and-jeans.jpg", "women", "casual", false, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Jacket and Jeans", "assets/img/outfits/women_jacket-and-jeans.jpg", "women", "casual", false, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Coat with Scarf", "assets/img/outfits/women_coat-with-scarf.jpg", "women", "casual", true, true, true, false, false, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Dress", "assets/img/outfits/women_dress.jpg", "women", "formal", false, false, false, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Dress with Jacket", "assets/img/outfits/women_dress-with-jacket.jpg", "women", "formal", false, false, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Business", "assets/img/outfits/women_business.jpg", "women", "formal", false, false, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Business", "assets/img/outfits/women_business-pants.jpg", "women", "formal", false, true, true, true, true, "clear");
+
+INSERT INTO outfits (outfit, photo, gender, occasion, tempbl20, tempbt2044, tempbt4565, tempbt6585, temp85up, weather_condition) 
+VALUES ("Formal Coat", "assets/img/outfits/women_formal-coat.jpg", "women", "formal", true, true, true, false, false, "clear");

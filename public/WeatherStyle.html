@@ -1,48 +1,47 @@
 <!Doctype html>
 <html>
 <title>Weather Style</title>
+
 <head>
-    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-  <header>
+    <header>
         <div class="collapse bg-dark" id="navbarHeader">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="nav-bar-about">Weather Style</h4>  
+                        <h4 class="AboutNav">WeatherStyle</h4>
                         <h5 id="name-display"></h5>
-                        <p class="text-muted"><br><br>Hate being surprised by the weather? Now you don't have to be. WeatherStyle, keeping you fashionable in rain, sleet, or shine.</p>
+                        <p class="NavBar">
+                            <br>
+                            <br>Hate being surprised by the weather? Now you don't have to be. WeatherStyle, keeping you fashionable in rain, sleet, or shine.</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
                         <!-- <h4 class="text-white">T-Squad</h4> -->
                         <ul class="list-unstyled">
-                            <li><a href="#map" class="text-white">Home</a></li>
                             <li><a href="register.html" class="text-white">Register</a></li>
                         </ul>
                         <!-- Login -->
                         <form>
-  <div class="row">
-    <div class="col" id="nav-input">
-      <input type="text" class="form-control" id="email" placeholder="Email">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" id="password" placeholder="Password">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
-      </li>
-      </button>
-    </div>
-  </div>
-</form>
+                            <div class="row">
+                                <div class="col" id="nav-input">
+                                    <input type="text" class="form-control email" id="loginEmail" placeholder="Email">
+                                </div>
+                                <div class="col">
+                                    <input type="password" class="form-control password" id="loginPassword" placeholder="Password">
+                                </div>
+                                <br />
+                            </div>
+                        </form>
+                        <a class="nav-link login" id="loginBtn" href="#">Login</a>
+                        <a class="nav-link login" id="logoutBtn" href="#">Logout</a>
                         <!-- Login Ends -->
-
                     </div>
                 </div>
             </div>
@@ -51,7 +50,7 @@
             <div class="container d-flex justify-content-between">
                 <a href="#" class="navbar-brand d-flex align-items-center">
                     <img src="assets/img/cloud.png" alt="">
-                    <p> Weather Style</p>
+                    <p> WeatherStyle</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,42 +58,45 @@
             </div>
         </div>
     </header>
-    <!-- jumbotron -->
-    <main role="main">
-        <div class="jumbotron jumbotron-fluid sky-container">
-            <img class="sky-banner" src="assets/img/skybanner.jpg" alt="">  
-        </div>
-
-        
-        <div class="album py-5 bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- <div><img src="" alt="" class="img-result"></div>
-                        <div class="name-result"></div>
-                        <div class="location-result"></div>
-                        <div class="phone-result"></div> -->
-                        <div class="results" style="overflow-y: scroll; height:100vh; border:1px solid darkgray; padding-left: 25px;"></div>
+    <div class="album py-5 BackGround">
+        <div class="container">
+            <div class="row">
+                <h3>Welcome <span id="userName"></span>!</h3>
+                        <label for="occasionSelect">Select your Style: </label>
+                        <select id="occasionSelect">
+                            <option value="casual">Casual</option>
+                            <option value="formal">Formal</option>
+                        </select>
+                        <input type="submit" id="occasion">
+                <div class="col-md-6">
+                    <div class="results" style="height:450px; border:1px solid darkgray; padding-left: 25px;">
+                        <h1 class="temp-main" id="temp">{{weather.temperature}}°</h1><span><img src={{weather.imageUrl}}></span>
+                        <p>Feels like <strong>{{weather.feelslike}}°</strong></p>
+                        <h2>{{weather.skytype}}</h2>
                     </div>
-                    <div class="col-md-6">
-                        <div id="map"></div>
+                </div>
+                <div class="col-md-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                     </div>
-                    <hr>
+                </div>
+                <hr>
+                <br />
+                <div id="ebayProducts">
+                        
                 </div>
             </div>
         </div>
-    </main>
-    
+    </div>
+</body>
 
-
-
-
-
-
-
-  
-
-
-
-    </body>
 </html>
