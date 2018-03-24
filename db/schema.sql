@@ -10,7 +10,7 @@ CREATE TABLE user (
   password VARCHAR(11), 
   gender VARCHAR(10) NOT NULL,
   email VARCHAR(30), 
-  zip INTEGER(10),   
+  zip VARCHAR(10),   
   PRIMARY KEY (id)
 );
 
